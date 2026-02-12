@@ -146,10 +146,6 @@ img {
 
   /* Steps 12 - 15: Update the grid-column property of the grid's children (where-needed)*/
 
-     .container > div:first-child {
-          background-size: 100% 100%;
-     }
-
      .accounts, .security, .contact {
           grid-column: 4 / span 3;
      }
